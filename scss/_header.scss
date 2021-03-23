@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $veryLightGray;
+    height: 2rem;
+    padding: .68rem 1.56rem;
+    .nav__links{
+        display: none;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // list-style: none;
+    }
+    .nav__button{
+        display: none;
+    }
+    .nav__menu__burger span{
+        display: block;
+        background-color: $gayishBlue;
+        width: 2rem;
+        height: .25rem;
+    }
+    .nav__menu__burger span:not(:last-child){
+        margin-bottom: .2rem;
+    }
+}
